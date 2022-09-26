@@ -4,6 +4,8 @@
 
 ### 0.1: setup
 
+#### 0.1.7: Verified functionality of API
+
 #### 0.1.6 Added Loading Section components
 
 #### 0.1.5: Initialized Loading Section
