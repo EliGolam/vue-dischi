@@ -1,0 +1,35 @@
+// COLOR SCHEME
+$clr-primary: rgb(12, 125, 237);
+$clr-secondary: rgb(28, 28, 28);
+$clr-light: rgb(245, 250, 255);
+
+$clr-dark: rgb(28, 28, 28);
+
+
+/* FONTS */
+$ff-default: 'Raleway', Helvetica, Arial, sans-serif;
+
+// FONT SIZE
+$fs-1: 3rem;
+$fs-2: 2rem;
+$fs-3: 1.5rem;
+$fs-4: 1rem;
+$fs-5: .9rem;
+$fs-6: .8rem;
+
+// FONT WEIGHT 
+$fw-bold: 800;
+$fw-default: 400;
+$fw-thin: 200;
+
+
+// Content Sizing
+$padding-x: 1.5rem;
+$max-container: 1000px;
+
+// BREAKPOINTS
+$sm-breakpoint: 576px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 992px;
+$xl-breakpoint: 1200px;
+$xxl-breakpoint: 1400px; 

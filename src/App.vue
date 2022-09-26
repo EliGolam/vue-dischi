@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HeaderSection />
+      <!-- This section contains the spotify logo -->
+      
+    <MainSection />
+      <!-- This section contains:
+        * A CardContainerComponent -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// Import Components
+import HeaderSection from '@/structureComponents/HeaderSection.vue';
+import MainSection from '@/structureComponents/MainSection.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderSection,
+    MainSection,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import '@/assets/styles/style.scss';
+
 </style>

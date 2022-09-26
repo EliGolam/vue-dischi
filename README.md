@@ -1,5 +1,15 @@
 # vue-dischi
 
+## Versions
+
+### 0.1: setup
+
+#### 0.1.3: Defined App macroscructure
+
+#### 0.1.2: Created Style sheets
+
+#### 0.1.1: Created Vue Scaffolding
+
 ## Project setup
 ```
 npm install
