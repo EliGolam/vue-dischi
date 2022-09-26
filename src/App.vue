@@ -5,7 +5,7 @@
       
     <LoadingSection />
 
-    <MainSection />
+    <MainSection :cardsData="musicData"/>
       <!-- This section contains:
         * A CardContainerComponent -->
   </div>
@@ -36,22 +36,26 @@ export default {
     this.retrieveMusicData();
   },
 
+  // METHODS
   methods: {
     retrieveMusicData() {
       axios
         .get(this.BOOLEAN_API + this.MUSIC_ENDPOINT)
         .then(({status, data}) => { this.processData(status, data); })
-        .catch(error => { console.warn("ERROR while loading", error); });
+        .catch(error => { this.errorHandler(error) });
     },
 
     processData(status, data) {
       const {success, response} = data;
-          console.log('Axios Response LOG', status, success, response);
+          // console.log('Axios Response LOG', status, success, response);
 
           if(status === 200 && success) {
             this.musicData = response;
-            console.log('DEBUG - musicData Contents', this.musicData);
           }
+    },
+
+    errorHandler(error) {
+      console.warn("ERROR while loading:", error);
     }
   },
 

@@ -1,6 +1,6 @@
 <template>
   <main>
-    <CardContainer />
+    <CardContainer :cards="cardsData" />
   </main>
 </template>
 
@@ -13,6 +13,11 @@ import CardContainer from '@/components/CardContainerComponent.vue';
 export default {
     name: 'MainSection',
 
+    props: {
+        cardsData: Array,
+    },
+
+    
     components: {
         CardContainer,
     }

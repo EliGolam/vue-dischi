@@ -2,6 +2,10 @@
 
 ## Versions
 
+### 0.2: Creating components
+
+#### 0.2.1 CardContainerComponent layout completed
+
 ### 0.1: setup
 
 #### 0.1.7: Verified functionality of API
