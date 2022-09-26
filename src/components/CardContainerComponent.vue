@@ -1,20 +1,19 @@
 <template>
-  <main>
-    <CardContainer />
-  </main>
+  <section>
+    <CardItem />
+  </section>
 </template>
-
 
 <!-- SCRIPT -->
 <script>
 // Import Components
-import CardContainer from '@/components/CardContainerComponent.vue';
+import CardItem from '@/components/CardComponent_CenteredDisplay.vue';
 
 export default {
-    name: 'MainSection',
+    name: 'CardContainer',
 
     components: {
-        CardContainer,
+        CardItem
     }
 }
 </script>

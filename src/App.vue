@@ -3,6 +3,8 @@
     <HeaderSection />
       <!-- This section contains the spotify logo -->
       
+    <LoadingSection />
+
     <MainSection />
       <!-- This section contains:
         * A CardContainerComponent -->
@@ -13,6 +15,8 @@
 // Import Components
 import HeaderSection from '@/structureComponents/HeaderSection.vue';
 import MainSection from '@/structureComponents/MainSection.vue';
+import LoadingSection from '@/structureComponents/LoadingSection.vue';
+
 
 
 export default {
@@ -20,7 +24,8 @@ export default {
   components: {
     HeaderSection,
     MainSection,
-  }
+    LoadingSection
+}
 }
 </script>
 

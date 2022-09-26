@@ -4,6 +4,10 @@
 
 ### 0.1: setup
 
+#### 0.1.5: Initialized Loading Section
+
+#### 0.1.4: Created hierarchical structure of MainSection and its components
+
 #### 0.1.3: Defined App macroscructure
 
 #### 0.1.2: Created Style sheets

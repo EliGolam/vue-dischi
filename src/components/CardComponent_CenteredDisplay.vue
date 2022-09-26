@@ -1,18 +1,19 @@
 <template>
-  <header>
-    <!-- LOGO -->
-  </header>
+  <article>
+    <h3>Title</h3>
+  </article>
 </template>
+
 
 <!-- SCRIPT -->
 <script>
 export default {
-    name: 'HeaderSection',
+    name: 'CardItem',
 }
 </script>
 
 
 <!-- STYLE -->
-<style lang="scss" scoped>
+<style>
 
 </style>
