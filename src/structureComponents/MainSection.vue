@@ -1,6 +1,6 @@
 <template>
   <main>
-    <CardContainer :cards="cardsData" />
+    <CardContainer class="cardContainer" :cards="cardsData" />
   </main>
 </template>
 
@@ -27,5 +27,11 @@ export default {
 
 <!-- STYLE -->
 <style lang="scss" scoped>
+// Scoped Variables
+$padding-y: 3rem;
 
+main {
+    padding: $padding-y 0;
+    overflow: auto;
+}
 </style>

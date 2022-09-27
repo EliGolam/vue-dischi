@@ -10,8 +10,20 @@
 #app {
     /* FONTS */ 
     font: $fw-default $fs-4 $ff-default;
-    color: $clr-dark;
-
+    color: $clr-light;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    // FLEX
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // Size
+    height: 100vh;
+    overflow: hidden;
+
+    // Aesthetic
+    background-color: $clr-secondary;
   }

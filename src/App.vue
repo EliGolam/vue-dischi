@@ -47,16 +47,19 @@ export default {
 
     processData(status, data) {
       const {success, response} = data;
-          // console.log('Axios Response LOG', status, success, response);
 
-          if(status === 200 && success) {
-            this.musicData = response;
-          }
+      if(this.isResponseOk(status, success)) {
+        this.musicData = response;
+      }
+    },
+
+    isResponseOk(status, success) {
+      return status === 200 && success;
     },
 
     errorHandler(error) {
       console.warn("ERROR while loading:", error);
-    }
+    },
   },
 
   components: {
