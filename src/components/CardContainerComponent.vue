@@ -45,6 +45,8 @@ $c-gap: 1rem;
 .cardContainer {
     row-gap: $r-gap;
     column-gap: $c-gap;
+
+    justify-content: center;
     
 
     .cardItem {

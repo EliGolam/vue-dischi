@@ -9,7 +9,7 @@
     <div class="info fs-5 flex-wrap">
       <p class="author fs-4">{{ author }}</p>
       <p>{{ year }}</p>
-      
+      <p>{{ genre }}</p>
     </div>
   </article>
 </template>

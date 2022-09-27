@@ -2,6 +2,10 @@
 
 ## Versions
 
+### 0.3: Adding Filter Options
+
+#### 0.3.1: Added basic text and select filter options for songs
+
 ### 0.2: Creating components
 
 #### 0.2.1 CardContainerComponent layout completed
